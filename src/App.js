@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import CompAxiosCall from './materi-testing/CompAxiosCall';
+import CompRole from './materi-testing/CompRole';
+import CompUserEvent from './materi-testing/CompUserEvent';
+import CompVariant from './materi-testing/CompVariant';
+import SampleCompRTL from './materi-testing/SampleCompRTL';
+import SimpleShowHide from './materi-testing/SimpleShowHide';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SampleCompRTL />
+      <SimpleShowHide />
+      <CompRole />
+      <CompVariant />
+      <CompUserEvent />
+      <CompAxiosCall />
     </div>
   );
 }
