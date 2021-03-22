@@ -14,7 +14,7 @@ describe("Testing seluruh aplikasi", () => {
       },
       {
         id: 2,
-        name: "Lutfi Maulana",
+        name: "Bambang Maulana",
       },
       {
         id: 3,

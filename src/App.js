@@ -1,10 +1,10 @@
 import './App.css';
-import CompAxiosCall from './materi-testing/CompAxiosCall';
-import CompRole from './materi-testing/CompRole';
-import CompUserEvent from './materi-testing/CompUserEvent';
-import CompVariant from './materi-testing/CompVariant';
-import SampleCompRTL from './materi-testing/SampleCompRTL';
-import SimpleShowHide from './materi-testing/SimpleShowHide';
+import CompAxiosCall from './testing-area/CompAxiosCall';
+import CompRole from './testing-area/CompRole';
+import CompUserEvent from './testing-area/CompUserEvent';
+import CompVariant from './testing-area/CompVariant';
+import SampleCompRTL from './testing-area/SampleCompRTL';
+import SimpleShowHide from './testing-area/SimpleShowHide';
 
 function App() {
   return (
